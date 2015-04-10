@@ -5,9 +5,38 @@ VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TypescriptSharedProject", "TypescriptSharedProject\TypescriptSharedProject.shproj", "{EE62ED19-BFCD-4F79-8FF8-E241AB2EC590}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "http://localhost:22123", "{4B9AD322-60B4-4230-837F-0E323E0E92F4}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_22123"
+		Debug.AspNetCompiler.PhysicalPath = "TypescriptSharedProject\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_22123\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_22123"
+		Release.AspNetCompiler.PhysicalPath = "TypescriptSharedProject\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_22123\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TypescriptSharedProject\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TypescriptSharedProject\TypescriptSharedProject.projitems*{ee62ed19-bfcd-4f79-8ff8-e241ab2ec590}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B9AD322-60B4-4230-837F-0E323E0E92F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9AD322-60B4-4230-837F-0E323E0E92F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
