@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TypescriptSharedProject", "TypescriptSharedProject\TypescriptSharedProject.shproj", "{EE62ED19-BFCD-4F79-8FF8-E241AB2EC590}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TypescriptSharedProject\TypescriptSharedProject.projitems*{ee62ed19-bfcd-4f79-8ff8-e241ab2ec590}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ee62ed19-bfcd-4f79-8ff8-e241ab2ec590</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)gulpfile.js" />
+    <Content Include="$(MSBuildThisFileDirectory)package.json" />
+    <Content Include="$(MSBuildThisFileDirectory)scripts\ts\file.ts" />
+  </ItemGroup>
+</Project>
